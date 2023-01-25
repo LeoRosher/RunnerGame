@@ -1,10 +1,10 @@
 package game.runnergame.Model;
 
 public class GameObject {
-    private String name;
-    private String image;
-    private int posX;
-    private int posY;
+    protected String name;
+    protected String image;
+    protected int posX;
+    protected int posY;
 
     public GameObject(String name, String image, int posX, int posY) {
         this.name = name;
